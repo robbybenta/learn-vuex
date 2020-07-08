@@ -24,7 +24,7 @@ export default {
     }
   },
   mounted () {
-    this.$store.dispatch('getProduct', this.id)
+    this.$store.dispatch('getProduct', { id: this.id })
   }
 }
 </script>
